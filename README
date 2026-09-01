@@ -1,1 +1,16 @@
-todo
+STORMWORKS COMBAT NET
+
+-------BY coyote2_4 --------
+
+The Stormworks Combat Net (SCN) is a combat-oriented network wherein users can share positions of themselves, relative positions of friendly users, positions of OPFOR, SITERPs,
+status reports and notes to other users. It will hopefully employ some level of encryption in the end.
+
+
+TO DO-
+
+1)  Have a detailed map (with the most advanced features) that shows current and past positions of your own, friendly and OPFOR vehicles, with filtering.
+2)  Transmit data at a variable rate
+3)  Transmit SITERP's periodically (variable), distress calls (auto-detect and mayday signals), as well as notes and text messages
+4)  Be compatible with most pre-made OS's (Pony OS, Stormworks Net, etc...)
+5)  Transmit audio
+6)  Duplex compatible
