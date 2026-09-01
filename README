@@ -2,8 +2,7 @@ STORMWORKS COMBAT NET
 
 -------BY coyote2_4 --------
 
-The Stormworks Combat Net (SCN) is a combat-oriented network wherein users can share positions of themselves, relative positions of friendly users, positions of OPFOR, SITERPs,
-status reports and notes to other users. It will hopefully employ some level of encryption in the end.
+The Stormworks Combat Net (SCN) is a combat-oriented network wherein users can share positions of themselves, relative positions of friendly users, positions of OPFOR, SITERPs, status reports and notes to other users. It will hopefully employ some level of encryption in the end.
 
 
 TO DO-
@@ -14,3 +13,14 @@ TO DO-
 4)  Be compatible with most pre-made OS's (Pony OS, Stormworks Net, etc...)
 5)  Transmit audio
 6)  Duplex compatible
+7)  Compatible with a possible future webserver that can transmit data to other server.
+
+
+USAGE:
+
+SCN will probably have a central "server" in-game, where either a recon or similar vehicle such as a car, truck, plane or ship is the central "command", where all tranmissions go to first
+to get calculated then sent out to everybody. This will save space in vehicles that are space-tight, like a car or tank. The vehicles are all assigned a callsign, either set during spawning in the editor or possibly mid-game using a keypad. They are also automatically given a radio frequency by the central command vehicle. This entails a process where the radio is given a set frequency (probably somewhere high) and the moment the command vehicle contacts them, the CV (command vehicle) chooses a random frequency (also somewhere high) and assigns it to the friendly vehicle. The FV (friendly vehicle) then switches to that frequency. The CV should have sufficient radio antennas, so multiple (at least 6) FV's can operate simultaneusly. 
+
+
+FV's transmit a SITERP once in a set period, which the default is 4, although this can be changed using a keypad. SITERPs give a description of the vehicles position, heading, speed and 
+current combat status. If a FV is in combat and is equipped with a stabilized camera or one of my LPS systems (future project), it will transmit the last 4 target positions in its memory (inside the SCN microcontroller). It also tranmits the current damage status of the FV, as well as any other notes. 
