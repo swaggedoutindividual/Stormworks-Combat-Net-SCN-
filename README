@@ -13,7 +13,8 @@ TO DO-
 4)  Be compatible with most pre-made OS's (Pony OS, Stormworks Net, etc...)
 5)  Transmit audio
 6)  Duplex compatible
-7)  Compatible with a possible future webserver that can transmit data to other server.
+7)  Compatible with a possible future webserver integration
+8)  Have a "balck box", a heavily armored box that won't get destroyed in an aircraft crash so users can send distress signals 
 
 
 USAGE:
@@ -23,4 +24,10 @@ to get calculated then sent out to everybody. This will save space in vehicles t
 
 
 FV's transmit a SITERP once in a set period, which the default is 4, although this can be changed using a keypad. SITERPs give a description of the vehicles position, heading, speed and 
-current combat status. If a FV is in combat and is equipped with a stabilized camera or one of my LPS systems (future project), it will transmit the last 4 target positions in its memory (inside the SCN microcontroller). It also tranmits the current damage status of the FV, as well as any other notes. 
+current combat status. If a FV is in combat and is equipped with a stabilized camera or one of my LPS systems (future project), it will transmit the last 4 target positions in its memory (inside the SCN microcontroller). It also tranmits the current damage status of the FV, as well as any other notes. Mayday signals are also transmitted from all vehicles if they either autodetect a fire, major damage or from a manual activation of a mayday or distress signal (transponder, etc). 
+
+CVs can also transmit target data to each FV, both marking target locations from every active FV on the map, and also outputting each one through composite nodes. This allows other vehicles connected to FVs (artillery pieces, trailers, etc) use this target data to automatically fire on them if activated, kind of like a LAN in a sense. 
+
+The microcontroller itself shall be quite compact and modular, with different add ons that are inter-compatible (with daisy-chaining) and backward compatible, so users can strategically place the microcontroller somewhere with space while the smaller add ons are spread about where they can fit to allow for maximum efficiency. In the future, I might make the entire MC made of smaller, more manageable MCs so users can have the same functionality in smaller and tighter vehicles while keeping all the perks of a premium, well built network.
+
+
