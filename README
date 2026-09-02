@@ -7,14 +7,23 @@ The Stormworks Combat Net (SCN) is a combat-oriented network wherein users can s
 
 TO DO-
 
-1)  Have a detailed map (with the most advanced features) that shows current and past positions of your own, friendly and OPFOR vehicles, with filtering.
-2)  Transmit data at a variable rate
-3)  Transmit SITERP's periodically (variable), distress calls (auto-detect and mayday signals), as well as notes and text messages
-4)  Be compatible with most pre-made OS's (Pony OS, Stormworks Net, etc...)
-5)  Transmit audio
-6)  Duplex compatible
-7)  Compatible with a possible future webserver integration
-8)  Have a "balck box", a heavily armored box that won't get destroyed in an aircraft crash so users can send distress signals 
+ -> REQUIREMENTS 
+1)  Have a detailed map (with the most advanced features) that shows current and past positions of your own, friendly and OPFOR vehicles, with filtering. (NOT DONE)
+2)  Transmit data at a variable rate (NOT DONE)
+3)  Transmit SITERP's periodically (variable), distress calls (auto-detect and mayday signals), as well as notes and text messages (NOT DONE)
+4)  Be compatible with most pre-made OS's (Pony OS, Stormworks Net, etc...) (NOT DONE)
+5)  Transmit audio (NOT DONE)
+6)  Duplex compatible (NOT DONE)
+7)  Compatible with a possible future webserver integration (NOT DONE)
+8)  Have a "balck box", a heavily armored box that won't get destroyed in an aircraft crash so users can send distress signals (NOT DONE)
+
+ -> QUALITY OF LIFE REQUIREMENTS
+1)  Day and night colour scheme for map (NOT DONE)
+2)  Autopilot module for all vehicle types (NOT DONE)
+3)  Audio and data transmission from one vehicle (FV to FV) straight to another one while still being fully encrypted (NOT DONE)
+4)  Have automated CWIS/CRAM modules for remote guns that track the closest target (NOT DONE)
+5)  Full CV control of a manual-sweep, incredibly narrow AWACS radar for further target tracking, with incredibly high speed  (NOT DONE)
+
 
 
 USAGE:
